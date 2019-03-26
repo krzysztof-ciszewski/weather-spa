@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "serve -s build",
+    "start-dev": "parcel index.html",
+    "build-dev": "parcel build index.html"
   },
   "license": "MIT",
   "dependencies": {
@@ -14,7 +15,8 @@
     "google-map-react": "^1.1.2",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-router-dom": "^5.0.0"
+    "react-router-dom": "^5.0.0",
+    "serve": "^10.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
