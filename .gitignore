@@ -3,3 +3,4 @@ dist
 .cache
 config/env.local.js
 yarn-error.log
+.env

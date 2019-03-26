@@ -1,14 +1,14 @@
 const env = {
     googleMaps: {
-        apiKey: '',
+        apiKey: process.env.GOOGLE_MAPS_API_KEY,
     },
     openWeatherMap: {
-        apiKey: '',
-        apiUrl: 'https://api.openweathermap.org/data/2.5'
+        apiKey: process.env.OPEN_WEATHER_API_KEY,
+        apiUrl: process.env.OPEN_WEATHER_API_URL,
     },
     backend: {
-        apiUrl: ''
-    }
+        apiUrl: process.env.BACKEND_API_URL,
+    },
 };
 
 export default env;
